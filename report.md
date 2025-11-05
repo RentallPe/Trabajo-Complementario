@@ -1,4 +1,3 @@
-# Trabajo-Complementario
 # Fundamentos de Desarrollo Web
 
 ## Resumen del Curso
@@ -8,7 +7,7 @@
 **Prerrequisitos:** Ninguno
 **Herramientas necesarias:** **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)
 
-**Repositorio de código fuente:** [https://github.com/yourusername/webdev-course-teamname](https://github.com/yourusername/webdev-course-teamname)
+**Repositorio de código fuente:** [https://github.com/RentallPe/webdev-course-RentallPe.git](https://github.com/RentallPe/webdev-course-RentallPe.git)
 
 ---
 
@@ -53,19 +52,17 @@
 ---
 
 ## Recursos Adicionales
-**Código:** [Todos Completos: [Repositorio de GitHub]](https://github.com/yourusername/webdev-course-teamname)
+**Código:** [Todos Completos: [Repositorio de GitHub]](https://github.com/RentallPe/webdev-course-RentallPe.git)
 **Todas las Actividades Prácticas:**
 
 | Lección # | Actividad | Empezar a Programar |
 | :--- | :--- | :--- |
-| 1 | Explorar Sitio Web | [CodePen](https://codepen.io/your-lesson1) |
-| 2 | Primera página HTML | [CodePen](https://codepen.io/your-lesson2) |
-| 3 | Añadir imágenes | [JSFiddle](https://jsfiddle.net/your-lesson3) |
-| 4 | Estilo de tu página | [CodePen](https://codepen.io/your-lesson4) |
-| 5 | Página de perfil | [Replit](https://replit.com/@your-lesson5) |
+| 1 | Explorar Sitio Web | [CodePen](https://codepen.io/trending) |
+| 2 | Primera página HTML | [CodePen](https://codepen.io/trending) |
+| 3 | Añadir imágenes | [JSFiddle](https://codepen.io/trending) |
+| 4 | Estilo de tu página | [CodePen](https://codepen.io/trending) |
+| 5 | Página de perfil | [Replit](https://codepen.io/trending) |
 
-**¡Demuestra tus conocimientos!** [https://forms.gle/your-quiz](https://forms.gle/your-quiz)
-**Compartir:** WebDevBeginners
 
 ¡Gracias por completar el curso! 🥳
 
@@ -74,11 +71,23 @@
 
 ## Elaboración
 Universidad Peruana de Ciencias Aplicadas
+
 Carrera de Ingeniería de Software
-Periodo 2024-02
+
+Periodo 2025-02
+
 [IS107] Aplicaciones Web
-NRC: [Número de NRC]
-**Nombre del equipo:** [Nombre de su equipo]
-**Líder del equipo:** [Nombres y Apellidos del líder]
-**Integrantes del equipo:** [Nombres y Apellidos de cada participante]
-**Fecha de entrega:** [Fecha]
+
+NRC: [7468]
+
+**Nombre del equipo:** [RentallPe]
+
+**Líder del equipo:** [Arturo Saravia]
+
+**Integrantes del equipo:** 
+[Gabriel Perez Tuesta]
+[Leonardo Cumba] 
+[Arturo Saravia]
+[Braulio Torrejon]
+
+**Fecha de entrega:** [16-11-2025]
