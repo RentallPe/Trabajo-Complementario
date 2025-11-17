@@ -66,7 +66,59 @@ Incluye:
 Video sobre la introduccion:
 https://youtu.be/5DU6wJm21i0
 
+# Parte 2: Introducción a HTML
 
+## Objetivo
+Explicar qué es HTML, cómo funciona su estructura básica y cómo se utiliza para construir el contenido de una página web.
+
+---
+
+## ¿Qué es HTML?
+
+HTML significa **HyperText Markup Language** (Lenguaje de Marcado de Hipertexto).  
+Es el **lenguaje base de toda página web**, responsable de definir la estructura y el contenido: textos, imágenes, botones, enlaces, tablas, formularios y más.
+
+HTML **no es un lenguaje de programación**, sino un lenguaje de marcado que organiza la información en bloques llamados **elementos** o **etiquetas**.
+
+Ejemplos de etiquetas:  
+- `<h1>` para títulos  
+- `<p>` para párrafos  
+- `<img>` para imágenes  
+- `<a>` para enlaces  
+- `<div>` para contenedores  
+
+---
+
+## Estructura básica de un documento HTML
+
+Un archivo HTML típico contiene:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primera página</title>
+</head>
+<body>
+  <h1>Hola mundo</h1>
+  <p>Este es mi primer documento HTML.</p>
+</body>
+</html>
+```
+Explicación de cada parte:
+- `<!DOCTYPE html>` Indica que el documento usa HTML5
+- `<html>` → Contenedor raíz de toda la página. 
+- `<head>` → Contiene metadatos (título, codificación, estilos, scripts).
+- `<body>` → Contiene todo lo visible por el usuario.
+
+## Estructura básica de un documento HTML
+Una etiqueta está compuesta por:
+```html
+<p>Este es un párrafo</p>
+```
+
+Video Explicativo: https://youtu.be/aF9WwEA8njA
 
 
 # Parte 3: Fundamentos de Estructura y Navegación en HTML
