@@ -286,7 +286,7 @@ Ejemplo 4: Grid Layout
 
 ```
 Se crean dos columnas iguales con separación.
----
+
 ## Conclusión
 CSS es sencillo de aprender y muy poderoso.
 Con unas pocas líneas podemos transformar una página básica en algo atractivo y responsivo.
@@ -296,6 +296,101 @@ Video sobre la explicacion:
 https://youtu.be/owa--QCDIPk?si=G_afU5FmXVHjpZHd
 
 ---
+# Capítulo 5 – Crear una Página Web Sencilla
+
+## Introducción
+En esta quinta lección vamos a crear un proyecto personal: una página web sencilla utilizando **HTML** y **CSS**.  
+El ejemplo será un perfil personal que muestra un título, el nombre del estudiante, su edad y una sección con sus gustos.
+
+---
+
+## Estructura HTML
+
+Toda la página estará contenida dentro de un `div`, que funciona como un **contenedor del contenido**.
+
+### Encabezado Principal
+- Utilizamos la etiqueta `h1` para el título principal:  
+  **Perfil personal** (`<h1>`)
+
+- Luego agregamos dos párrafos (`<p>`) con información personal:
+  - *Mi nombre es* (en `<strong>`) seguido del nombre.  
+  - *Mi edad es* (también en `<strong>`) seguido de la edad.  
+
+Ambos párrafos usan la clase `.data`, que será estilizada desde CSS.
+
+### Sección de Gustos
+Después del encabezado, se incluye otro contenedor (`div`) con clase `.contenedor`. Dentro de él:
+
+- Un separador `<hr>`.
+- Un subtítulo `<h2>` llamado **Mis gustos**.
+- Un `div` adicional que contiene:
+  - Un subtítulo `<h3>` (por ejemplo, *Lectura de cómics*).
+  - Una imagen usando la etiqueta `<img>`, con la clase `.imagen1`, el atributo `src` con la dirección de la imagen y el atributo `alt`.
+
+Luego se repite la estructura para un segundo gusto:
+- Un `<h3>` (por ejemplo, *Jugar videojuegos*).
+- Otra etiqueta `<img>` con la misma clase `.imagen1`.
+
+> Nota: La etiqueta `<img>` no necesita etiqueta de cierre.
+
+---
+
+## Estilos con CSS
+
+En el archivo CSS se definen los estilos utilizando **selectores de etiquetas y clases**.
+
+### Estilos Generales
+- Se estiliza el `body` con un color de fondo usando un código hexadecimal.  
+- Los colores pueden obtenerse de cualquier paleta disponible en internet.
+
+### Estilo del Título Principal (`h1`)
+El selector `h1` se utiliza directamente porque es una etiqueta:
+
+```css
+h1 {
+  text-align: center;
+}
+```
+
+### Estilos de los Datos Personales
+Para referenciar clases en CSS se utiliza un punto antes del nombre:
+```css
+.data {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+}
+
+```
+El tamaño de letra se puede ajustar según preferencia.
+
+### Estilos de las Imágenes
+La clase  define
+```css
+.imagen1 {
+  height: 400px;
+}
+
+```
+Este valor puede modificarse según la estética deseada.
+
+Estilos del Contenedor (.contenedor)
+El contenedor que agrupa los gustos se centra con:
+```css
+.contenedor {
+  text-align: center;
+}
+
+```
+Todo lo que esté dentro del contenedor se ajustará a este estilo.
+
+Esta página web de perfil personal es un ejemplo básico para practicar HTML y CSS.
+Con unos pocos elementos (div, h1, h2, h3, p, img) y clases simples, es posible estructurar y estilizar contenido web.
+El objetivo es que los estudiantes se interesen por la programación web y puedan expandir el proyecto con sus propios datos, imágenes y estilos.
+
+Video explicativo: https://youtu.be/UExaAIWPufk
+---
+
 ## Elaboración
 # Universidad Peruana de Ciencias Aplicadas
 
@@ -304,8 +399,6 @@ https://youtu.be/owa--QCDIPk?si=G_afU5FmXVHjpZHd
 **Período:** 202520  
 
 **Equipo:** RentalPE 
-**Líder:** Braulio [Apellido]  
-**Integrantes:** [Nombres y Apellidos]  
 **Fecha de entrega:** Domingo 16 de Noviembre del 2025
 
 
