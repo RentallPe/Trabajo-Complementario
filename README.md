@@ -66,6 +66,39 @@ Incluye:
 Video sobre la introduccion:
 https://youtu.be/5DU6wJm21i0
 
+
+
+
+# Parte 3: Fundamentos de Estructura y Navegación en HTML
+
+## Objetivo 
+Dominar los elementos esenciales de HTML para **organizar información** mediante listas, **insertar contenido visual** accesible con imágenes y **conectar documentos** web a través de enlaces, permitiendo la creación de páginas web estructuradas y navegables.
+---
+##  Teoría
+
+### 1. Listas (`<ul>`, `<ol>` y `<li>`)
+Sirven para agrupar información. Siempre requieren una etiqueta contenedora y etiquetas para los ítems.
+
+* **`<ul>` (Unordered List):** Crea una lista desordenada con **viñetas** (puntos). Se usa cuando el orden de los elementos no altera el sentido.
+* **`<ol>` (Ordered List):** Crea una lista ordenada con **números** o letras. Se usa cuando la secuencia es importante (paso 1, paso 2...).
+* **`<li>` (List Item):** Es cada ítem individual. Va anidado dentro de `<ul>` u `<ol>`.
+
+### 2. Imágenes (`<img>`)
+Permite incrustar contenido visual. Es una etiqueta "vacía" (no tiene cierre `</img>`).
+
+* **`src` (Source):** Atributo obligatorio que indica la **ruta** o URL donde se encuentra la imagen.
+* **`alt` (Texto Alternativo):** Atributo crucial para accesibilidad y SEO. Describe la imagen si no carga o para lectores de pantalla. (Si es decorativa, usar `alt=""`).
+* **`width` / `height`:** Definen el ancho y alto para reservar el espacio visual.
+
+### 3. Enlaces (`<a>`)
+Es el elemento "ancla" (*Anchor*) que permite la navegación (hipertexto).
+
+* **`href` (Hypertext Reference):** Atributo obligatorio que define el **destino** (URL) al que se dirige el usuario al hacer clic.
+* **Contenido (Texto ancla):** Lo que va entre `<a>` y `</a>` es lo que el usuario ve y puede cliquear.
+* **`target="_blank"`:** Atributo opcional que fuerza al navegador a abrir el enlace en una **pestaña nueva**.
+
+
+
 # Parte 4: Introducción a CSS
 
 ## Objetivo
