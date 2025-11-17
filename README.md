@@ -31,6 +31,9 @@ Incluye:
 
 ![dadadadadad](https://github.com/user-attachments/assets/0a074772-809c-43a0-902a-5156044232b9)
 
+Video sobre la introduccion:
+https://youtu.be/5DU6wJm21i0
+
 # Parte 4: Introducción a CSS
 
 ## Objetivo
