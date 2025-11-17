@@ -1,3 +1,27 @@
+# Parte 1: ¿Que es el desarrollo web?
+
+## ¿Qué es el desarrollo web?
+El **desarrollo web** es el proceso de **crear, mantener y optimizar** sitios y aplicaciones web.  
+Incluye tanto la parte visible para el usuario (**frontend**) como la lógica interna que maneja datos y procesos (**backend**).
+
+---
+
+##  Componentes principales
+
+###  Frontend
+La parte que los usuarios ven e interactúan.  
+Incluye:
+- **HTML** (estructura)
+- **CSS** (estilos)
+- **JavaScript** (interactividad)
+- Frameworks: **React**, **Vue**, **Angular**, entre otros.
+---
+
+
+
+## Otros aspectos importantes
+
+
 # Parte 4: Introducción a CSS
 
 ## Objetivo
