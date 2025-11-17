@@ -37,3 +37,115 @@ p {
   font-size: 18px;
 }
 ```
+
+### ¿Por qué en cascada?
+CSS aplica siempre la última regla definida para un mismo selector.
+
+Ejemplo:
+
+```css
+p { color: red; }
+p { color: blue; }
+```
+El párrafo será azul, porque CSS toma la última regla.
+### Ejemplos prácticos
+Ejemplo 1: Estilos básicos en <style>
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: darkblue;
+      text-align: center;
+    }
+    p {
+      margin: 20px;
+      padding: 10px;
+      border: 2px solid gray;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi página con CSS</h1>
+  <p>Este párrafo tiene estilo aplicado con CSS.</p>
+</body>
+</html>
+```
+Ejemplo 2: Uso de clases
+
+```HTML
+<h1 class="primario">Título principal</h1>
+<h1>Título secundario</h1>
+
+<style>
+  .primario {
+    color: blueviolet;
+  }
+</style>
+```
+Ejemplo 3: Flexbox para alinear elementos
+```HTML
+<div class="diver">
+  <div><h1>Prueba 1</h1></div>
+  <div><h1>Prueba 2</h1></div>
+</div>
+
+<style>
+  .diver {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .diver h1 {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+</style>
+
+
+```
+Ejemplo 4: Grid Layout
+```HTML
+<div class="grid">
+  <div>Bloque 1</div>
+  <div>Bloque 2</div>
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+</style>
+
+```
+Se crean dos columnas iguales con separación.
+---
+## Conclusión
+CSS es sencillo de aprender y muy poderoso.
+Con unas pocas líneas podemos transformar una página básica en algo atractivo y responsivo.
+En próximos capítulos veremos cómo organizar mejor los estilos en archivos externos y cómo aplicar buenas prácticas.
+
+---
+## Elaboración
+# Universidad Peruana de Ciencias Aplicadas
+
+**Carrera:** Ingeniería de Software  
+**Curso:** 1ASI0730 Aplicaciones Web  
+**Período:** 202520  
+
+**Equipo:** RentalPE 
+**Líder:** Braulio [Apellido]  
+**Integrantes:** [Nombres y Apellidos]  
+**Fecha de entrega:** Domingo 16 de Noviembre del 2025
+
+
+
