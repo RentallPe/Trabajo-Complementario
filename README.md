@@ -29,6 +29,7 @@ Incluye:
 - Perfecto para probar ideas rápidas, crear demos o pedir ayuda en foros.
 ---
 
+![dadadadadad](https://github.com/user-attachments/assets/0a074772-809c-43a0-902a-5156044232b9)
 
 # Parte 4: Introducción a CSS
 
