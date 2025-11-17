@@ -292,6 +292,9 @@ CSS es sencillo de aprender y muy poderoso.
 Con unas pocas líneas podemos transformar una página básica en algo atractivo y responsivo.
 En próximos capítulos veremos cómo organizar mejor los estilos en archivos externos y cómo aplicar buenas prácticas.
 
+Video sobre la explicacion:
+https://youtu.be/owa--QCDIPk?si=G_afU5FmXVHjpZHd
+
 ---
 ## Elaboración
 # Universidad Peruana de Ciencias Aplicadas
